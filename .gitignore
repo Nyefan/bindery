@@ -1,0 +1,13 @@
+**/*
+!architecture
+!architecture/**/*
+!crates
+!crates/**/*
+!.gitignore
+!.tool-versions
+!Cargo.toml
+!Cargo.lock
+!justfile
+!LICENSE
+!README.md
+!rust-toolchain.toml
