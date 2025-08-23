@@ -10,6 +10,9 @@ build:
 test:
   echo "INFO:    Testing..."
   cargo test
+run: build
+  echo "INFO:    Running..."
+  cargo run
 release: lint build test
   echo "INFO:    Creating release build..."
   cargo build --future-incompat-report --color always --release --locked
